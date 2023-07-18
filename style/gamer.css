@@ -10,7 +10,7 @@ body{
 
 .nav-container{
    
-    height: 150px;
+    height: 100px;
     width:100%;
     background: #FFF;
     display: flex;
@@ -81,21 +81,38 @@ nav a{
 /* banner section */
 .banner-container{
     width: 100%;
-    height: 700px;
+    height: 500px;
     background: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .writtings-section{
+    margin-top: 70px;
+    padding: 40px 40px 60px 70px;
     background-image: url("/images/group14.png");
     background-size: cover;
     width: 50%;
     height:100%;
-
+    text-align: center;
    
 }
+.goat{
+    color: #F948B2, #8758F1;
+    font-size: 50px;
+    font-weight:bold;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 .right-image{
+
+    background-image: url("/images/group18.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 50%;
     height:100%;
 }
