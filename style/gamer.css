@@ -96,7 +96,7 @@ nav a{
 .banner-container .writtings-section,
 .children-area .writtings-section{
     
-    background-image: url("/images/group14.png");
+    background-image: url("./images/group14.png");
     background-size:cover;
     width: 50%;
     height:100%;
@@ -154,7 +154,7 @@ nav a{
 }
 
 .banner-container .right-image{
-    background-image: url("/images/group18.png");
+    background-image: url("./images/group18.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
