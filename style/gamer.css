@@ -456,12 +456,18 @@ nav a{
   @media screen and  (max-width:576px)
   {
   
-     .nav-container,.li-container{
+    .li-container{
           flex-direction: column;
   
       }
+      .li-container {
+        width:100%;
+        flex-direction: column;
+        margin-top: 250px;
+        margin-left: -380px;
+      }
   
-      footer p, .instagram-section .details1 ,.featured .details1 {
+      /* footer p, .instagram-section .details1 ,.featured .details1 {
           padding: 5px;
       }
       footer h4{
@@ -481,6 +487,6 @@ nav a{
       }
       .header_sec .image{
      background-position: center;
-      }
+      } */
    
   }
