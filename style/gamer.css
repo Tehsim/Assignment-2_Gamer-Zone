@@ -462,10 +462,11 @@ nav a{
         padding: 0;
 
     }
-    .li-container, .box , .play-game {
+    .li-container, .box , .play-game , .footer-text {
           flex-direction: column;
   
       }
+
       .play-game{
         justify-content: center;
         align-items: center;
@@ -486,7 +487,7 @@ nav a{
 
       }
 
-      .writtings-section {
+      .writtings-section , .footer{
         height: 100%;
       }
       .banner-container .right-image ,  .banner-container .writtings-section, .children-area .writtings-section {
@@ -500,8 +501,17 @@ nav a{
         height: 100%;
         width: 100%;
     }
-    
+    .icon-button-area {
+        height: 193px;
 
+        width: 100%;
+        margin: 30px auto;
+
+    }
+    .online-games-section, .play-game .image {
+
+        padding-right: 275px;
+    }
 .children-area{
     margin-top: 100px;
 
