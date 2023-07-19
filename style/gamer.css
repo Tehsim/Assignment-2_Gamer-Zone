@@ -456,37 +456,56 @@ nav a{
   @media screen and  (max-width:576px)
   {
   
-    .li-container{
+    body{
+        overflow: 0;
+        margin: 0;
+        padding: 0;
+
+    }
+    .li-container, .box , .play-game {
           flex-direction: column;
   
       }
+      .play-game{
+        justify-content: center;
+        align-items: center;
+        margin-top: 400px;
+        padding-bottom: 200px;
+      }
+      .banner-container, .mt-30{
+        flex-direction: column-reverse;
+        padding-bottom: 198px;
+      }
       .li-container {
-        width:100%;
-        flex-direction: column;
+
         margin-top: 250px;
         margin-left: -380px;
       }
-  
-      /* footer p, .instagram-section .details1 ,.featured .details1 {
-          padding: 5px;
+      .nav-container{
+        height:428px;
+
       }
-      footer h4{
-          padding-top: 10px;
+
+      .writtings-section {
+        height: 100%;
       }
-      .subscribe-box , .hot-deal .image, .header_sec{
-          width: 100%;
-      }
-      .hot-deal,.header_sec{
-          height: 100%;
-      }
-      .hot-deal .image img ,.box div {
-          margin:3rem;
-      }
-      .btn-primary,.subscribe-box h2 {
-          margin-top: 10px;
-      }
-      .header_sec .image{
-     background-position: center;
-      } */
-   
+      .banner-container .right-image ,  .banner-container .writtings-section, .children-area .writtings-section {
+      
+        width: 100%;
+        height: 50%;
+        margin-bottom: -19px;
+    }
+
+    .online-games-section ,.play-game .image{
+        height: 100%;
+        width: 100%;
+    }
+    
+
+.children-area{
+    margin-top: 100px;
+
+    width: 100%;
+}
+
   }
