@@ -451,3 +451,36 @@ nav a{
     font-weight: 500;
   }
   
+
+
+  @media screen and  (max-width:576px)
+  {
+  
+     .nav-container,.li-container{
+          flex-direction: column;
+  
+      }
+  
+      footer p, .instagram-section .details1 ,.featured .details1 {
+          padding: 5px;
+      }
+      footer h4{
+          padding-top: 10px;
+      }
+      .subscribe-box , .hot-deal .image, .header_sec{
+          width: 100%;
+      }
+      .hot-deal,.header_sec{
+          height: 100%;
+      }
+      .hot-deal .image img ,.box div {
+          margin:3rem;
+      }
+      .btn-primary,.subscribe-box h2 {
+          margin-top: 10px;
+      }
+      .header_sec .image{
+     background-position: center;
+      }
+   
+  }
