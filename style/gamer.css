@@ -363,6 +363,7 @@ nav a{
     width: 960px;
     margin: 30px auto;
     overflow: hidden;
+    
 }
 
 .icon-button-area .button-box{
@@ -372,7 +373,12 @@ nav a{
     width: 170px;
     float: left;
     margin: 10px;
+
 }
+.icon-button-area .sixth{
+    padding-left: 96px;
+}
+
 .icon-button-area .button-box:hover{
     border-color: #FF42A5;
     cursor: pointer;
