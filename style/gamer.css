@@ -415,7 +415,7 @@ nav a {
 }
 
 .icon-button-area .sixth {
-    padding-left: 96px;
+    margin-left: 100px;
 }
 
 .icon-button-area .button-box:hover {
@@ -617,7 +617,7 @@ nav a {
     }
 
     .icon-button-area .sixth {
-        padding-left: 0px;
-    }
+       margin-left: 10px;
+    } 
 
 }
