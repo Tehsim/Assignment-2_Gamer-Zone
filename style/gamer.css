@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@800&family=Work+Sans:wght@500;600&display=swap');
 
+
 body{
     margin: 0;
     padding: 0;
@@ -8,17 +9,19 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+header {
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    position: absolute;
+}
 
 .nav-container{
    
     height: 100px;
     width:100%;
-    background: #FFF;
     display: flex;
     align-items: center;
-    border: 1px solid #ccc; /* Set the border style */
-    box-shadow: 4px 0px 0px 0px rgba(0, 0, 0, 0.05);
-    
 }
 .nav-container .logo-head{
     margin-left: 160px;
@@ -90,7 +93,8 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding-top: 101px;
+    padding-bottom: 80px;
 }
 
 .banner-container .writtings-section,
@@ -102,6 +106,9 @@ nav a{
     height:100%;
     justify-content: center;
     align-items: center;
+    padding-top: 28px;
+    margin-bottom: -27px;
+
    
 }
 .likhalikhi{
@@ -160,9 +167,13 @@ nav a{
     background-repeat: no-repeat;
     width: 50%;
     height:100%;
+
+    padding-top: 28px;
+    margin-top: 46px;
 }
 
-/* online games section */
+/* online games section*/
+
 .online-games-section{
     background: #fff;
     justify-content: center;  
@@ -212,16 +223,17 @@ nav a{
 .box .boxs img:hover
 {
     filter: grayscale(0.60);
+    border: 5px solid #FF42A5;
+    border-radius: 5px;
 }
-.box .boxs img:hover+.after-hover, 
-.box .boxs .after-hover:hover{
+.box .boxs img:hover+.after-hover, .box .boxs img:hover+.after-hovers, .box .boxs .after-hover:hover, .box .boxs .after-hovers:hover{
     opacity: 1;
     cursor: pointer;
+
 }
 .box .boxs .after-hover{
     z-index: 9999;
-    top: 30%;
-    bottom: 0;
+    top: 30%;    bottom: 0;
     position: absolute;
     left: 0;
     right: 0;
@@ -232,7 +244,25 @@ nav a{
     color: #fff;
     opacity: 0;
 }
+.box .boxs .after-hovers{
+    z-index: 9999;
+    top: 30%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 30px;
+    height: inherit;
+    margin: 0 auto;
+    color: #FF42A5;
+    opacity: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 70px;
+    width: 136px;
 
+}
 .online-span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -247,6 +277,7 @@ nav a{
     font-weight: 400;
     margin-bottom: 40px;
 }
+
 
 
 /* play game */
