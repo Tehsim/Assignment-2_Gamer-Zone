@@ -553,5 +553,8 @@ nav a{
 .footer-text{
     margin-left: -41px;
 }
+.icon-button-area .sixth{
+    padding-left: 0px;
+}
 
   }
