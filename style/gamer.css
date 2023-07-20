@@ -488,12 +488,7 @@ nav a{
   @media screen and  (max-width:576px)
   {
   
-    body{
-        overflow: 0;
-        margin: 0;
-        padding: 0;
 
-    }
     .li-container, .box , .play-game , .footer-text {
           flex-direction: column;
   
@@ -502,13 +497,13 @@ nav a{
       .play-game{
         justify-content: center;
         align-items: center;
-        margin-top: 400px;
-        padding-bottom: 200px;
+        margin-top: 400px; 
       }
-      .banner-container, .mt-30{
+.banner-container, .mt-30{
         flex-direction: column-reverse;
         padding-bottom: 198px;
       }
+
       .li-container {
 
         margin-top: 250px;
@@ -548,6 +543,9 @@ nav a{
     margin-top: 100px;
 
     width: 100%;
+}
+.footer-text{
+    margin-left: -41px;
 }
 
   }
